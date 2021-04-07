@@ -27,10 +27,12 @@ This application let users to add or delete data
 
 
 **********Link to github repo************
+
 https://github.com/00009027/CW2.WEB-TECH.00009027.git
 
-#### Link to application on Glitch
-https://held-marvelous-flyingfish.glitch.me
+*********** Link to application on Glitch *****************
+
+
 
 
 
