@@ -1,0 +1,27 @@
+extends layout.pug
+
+block games 
+  if error
+    p.error Please add any names)
+
+  if success
+    p.posted List of games:
+
+  if deleted
+    p.deleting There is no list yet
+
+  form.form(action='/add' method='POST')
+    input.input(type='text' placeholder='Add the name of games here...' name='todo')
+    button.button Add  
+
+  div.banner
+    if todos.length
+      each todo in todos  
+        p.banner_list 
+          if todo.done
+            a.done(href=`/${ todo.id}/update`) #{ todo.description }
+          else 
+            a.undone(href=`/${ todo.id}/update`) #{ todo.description }
+          a.delete_button(href=`/${ todo.id }/delete`) Delete
+    else
+      p.banner_list  No any games available
