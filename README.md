@@ -26,11 +26,12 @@ node app
 This application let users to add or delete data
 
 
-**********Link to github repo************
+********** Link to github repo ************
 
 https://github.com/00009027/CW2.WEB-TECH.00009027.git
 
 *********** Link to application on Glitch *****************
+
 https://webtech-cw2.glitch.me
 
 
